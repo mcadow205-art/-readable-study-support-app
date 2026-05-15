@@ -1,20 +1,50 @@
-# ReadAble - Baseline Project Concept
+# ReadAble
 
-This project originally began as a dyslexia-friendly reading application for university students.
+ReadAble is a React-based adaptive study support prototype for university students with dyslexia and ADHD.
 
-## Original Aim
+## Project Overview
 
-The original aim was to support students with dyslexia when reading digital academic materials.
+ReadAble supports students through reading, planning, focus, writing, and recovery from distraction. The project began as a dyslexia-friendly reading interface and developed into a wider adaptive study support application.
 
-## Baseline Features Planned
+The prototype is designed to reduce friction during independent study by combining reading support, saved work, task planning, focus tools, and recovery features into one interface.
 
-- Adjustable text size
-- Dyslexia-friendly reading layout
-- Background colour options
-- Line spacing controls
-- Focus reading mode
-- Simple reading interface
+## Main Features
 
-## Development Direction
+- Saved Work and study files
+- Reading Notes templates
+- Reading Lab
+- Text-to-speech
+- Speech-to-text
+- Word prediction
+- Graphic organiser
+- Syllable Assist
+- Difficult Word Collector
+- Study Planner
+- Focus Cockpit
+- Focus Flower and watering recovery
+- Quick-Dump Voice Inbox
+- Browser reminders
+- Custom focus timer
+- Hidden timer mode with alarm
+- Visual Time Slice modes
+- Emotional State Study Mode
+- Recovery Memory
+- Insights dashboard
 
-During development, the project expanded beyond reading support. The final version developed into a wider adaptive study support application for students with dyslexia and ADHD.
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Browser localStorage
+- Web Speech API
+- Browser Notifications API
+
+## How to Run the Project
+
+Install dependencies:
+
+```bash
+npm install
