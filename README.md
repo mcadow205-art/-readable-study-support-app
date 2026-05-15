@@ -1,16 +1,50 @@
-# React + Vite
+# ReadAble
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReadAble is a React-based adaptive study support prototype for university students with dyslexia and ADHD.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ReadAble supports students through reading, planning, focus, writing, and recovery from distraction. The project began as a dyslexia-friendly reading interface and developed into a wider adaptive study support application.
 
-## React Compiler
+The prototype is designed to reduce friction during independent study by combining reading support, saved work, task planning, focus tools, and recovery features into one interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Main Features
 
-## Expanding the ESLint configuration
+- Saved Work and study files
+- Reading Notes templates
+- Reading Lab
+- Text-to-speech
+- Speech-to-text
+- Word prediction
+- Graphic organiser
+- Syllable Assist
+- Difficult Word Collector
+- Study Planner
+- Focus Cockpit
+- Focus Flower and watering recovery
+- Quick-Dump Voice Inbox
+- Browser reminders
+- Custom focus timer
+- Hidden timer mode with alarm
+- Visual Time Slice modes
+- Emotional State Study Mode
+- Recovery Memory
+- Insights dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Browser localStorage
+- Web Speech API
+- Browser Notifications API
+
+## How to Run the Project
+
+Install dependencies:
+
+```bash
+npm install
